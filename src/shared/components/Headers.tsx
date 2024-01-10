@@ -1,4 +1,4 @@
-export const Header = () => {
+export const Headers = () => {
   return (
     <div>
       <div className=" flex justify-between p-3 font-extrabold ">
