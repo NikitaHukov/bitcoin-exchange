@@ -30,9 +30,7 @@ export const Headers = () => {
         <div className=" flex justify-between p-5 border-b border-gray-300">
           <div className=" flex gap-5 text-4xl font-extrabold align-middle pl-11">
             <div className="bg-yellow-500 h-10 w-10 rounded-lg"></div>Bitcoin
-            <div className=" font-normal text-2xl p-1">
-              Buy,Sell, Exchange Bitcoins in Thailand
-            </div>
+            <div className=" font-normal text-2xl p-1">Buy,Sell, Exchange Bitcoins in Thailand</div>
           </div>
           <div className="flex gap-6 text-4xl font-extrabold pr-11">
             <div>Buy Bitcoin</div>
@@ -42,5 +40,5 @@ export const Headers = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
