@@ -4,7 +4,9 @@ export const Header = () => {
       <div className=" flex justify-between p-3 font-extrabold ">
         <div className=" flex gap-2 ml-10">
           Bitcoin Price:<div className="text-sky-500">43,106</div>{" "}
-          <div className="text-gray-400 ml-5">5 March 2017 - 10:42pm</div>
+          <div className="text-gray-400 ml-5 bg-red-500">
+            5 March 2017 - 10:42pm
+          </div>
         </div>
         <div className="flex gap-3">
           <div>Trade</div>
