@@ -1,6 +1,6 @@
 export const Hero = () => {
   return (
-    <div>
+    <div className=" bg-red-500 flex justify-center gap-10">
       <div>
         <span>Inside Thailand</span>
         <div>
