@@ -10,13 +10,12 @@ export const Hero = () => {
         <div>
           <div>IMG</div>
           <span>
-            It's easy to set up your free account, and you will be able to
-            exchange in no time
+            It's easy to set up your free account, and you will be able to exchange in no time
           </span>
         </div>
         <div>
-          All your data is encrypted with a 256-bit encryption and the data
-          exchanged with us is encrypted with 256-bit SSL
+          All your data is encrypted with a 256-bit encryption and the data exchanged with us is
+          encrypted with 256-bit SSL
         </div>
         <div>line</div>
         Questions about Bitcoin?
@@ -43,5 +42,5 @@ export const Hero = () => {
         <button>Buy Coins</button>
       </div>
     </div>
-  );
-};
+  )
+}
