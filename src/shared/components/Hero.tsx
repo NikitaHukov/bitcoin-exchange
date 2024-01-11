@@ -32,8 +32,8 @@ export const Hero = () => {
           Questions about Bitcoin?
         </span>
       </div>
-      <div className="bg-green-500 p-16 border border-gray-300">
-        <div className="flex text-2xl justify-center">
+      <div className=" p-16 border border-gray-300">
+        <div className="flex text-2xl justify-center font-semibold ">
           <button className="p-7 px-16 border border-gray-300">
             Buy Bitcoin
           </button>
@@ -44,18 +44,24 @@ export const Hero = () => {
         <div className="py-12">
           <span className="text-3xl font-semibold">I would like to buy:</span>
           <div className="flex items-center gap-5 font-semibold">
-            <input className="text-5xl text-center w-80"></input>
+            <input className="text-5xl text-center w-80 border border-gray-300"></input>
             <button className="p-4 border border-gray-300">BTC</button>
             <button className="p-4 border border-gray-300">THB</button>
           </div>
         </div>
         <div className="text-3xl font-semibold">
-          <span>I will Pay:</span>
-          <div>
-            44,054 <div>THB</div>
+          <span>I will pay:</span>
+          <div className="flex justify-end gap-1">
+            44,054 <span className="text-lg">THB</span>
           </div>
         </div>
-        <button>Buy Coins</button>
+        <div className="flex justify-center pt-8">
+          <div className="border border-gray-300">
+            <button className="text-4xl font-semibold bg-yellow-500 hover:bg-yellow-400 p-8 px-24 m-5 ">
+              Buy Coins
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   );
