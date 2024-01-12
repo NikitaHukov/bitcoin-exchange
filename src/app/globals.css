@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .max-content {
-  @apply max-w-[1000px];
+  @apply max-w-[1200px];
 }
