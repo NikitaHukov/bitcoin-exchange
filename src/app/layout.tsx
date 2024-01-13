@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Headers } from "@/shared/components/Headers";
 import { Hero } from "@/shared/components/Hero";
+import { Banks } from "@/shared/components/Banks";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -17,9 +18,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <script src="https://unpkg.com/@phosphor-icons/web"></script>
+      </head>
       <body className={`${inter.className} antialiased`}>
         <Headers />
         <Hero />
+        <Banks />
         {/* <div>{children}</div> */}
       </body>
     </html>
