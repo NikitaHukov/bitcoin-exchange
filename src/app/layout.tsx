@@ -3,7 +3,9 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Headers } from "@/shared/components/Headers";
 import { Hero } from "@/shared/components/Hero";
+import { Banks } from "@/shared/components/Banks";
 const inter = Inter({ subsets: ["latin"] });
+// const mBanks = {{BankImg: "dsdsd"}};
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -17,10 +19,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <head>
+        <script src="https://unpkg.com/@phosphor-icons/web"></script>
+      </head>
+      <body className={`${inter.className} antialiased`}>
         <Headers />
         <Hero />
-        <div>{children}</div>
+        <Banks />
+        {/* {mBanks.map(
+      ({BankImg}) => (<Banks BankImg={BankImg}/>))}
+        <div>{children}</div> */}
       </body>
     </html>
   );
