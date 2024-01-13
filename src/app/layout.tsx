@@ -5,6 +5,7 @@ import { Headers } from "@/shared/components/Headers";
 import { Hero } from "@/shared/components/Hero";
 import { Banks } from "@/shared/components/Banks";
 const inter = Inter({ subsets: ["latin"] });
+// const mBanks = {{BankImg: "dsdsd"}};
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -25,7 +26,9 @@ export default function RootLayout({
         <Headers />
         <Hero />
         <Banks />
-        {/* <div>{children}</div> */}
+        {/* {mBanks.map(
+      ({BankImg}) => (<Banks BankImg={BankImg}/>))}
+        <div>{children}</div> */}
       </body>
     </html>
   );
