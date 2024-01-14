@@ -1,10 +1,14 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { Header } from "@/shared/components/Header";
-import { SecondHeader } from "@/shared/components/SecondHeader";
-import { Body } from "@/shared/components/Body";
+import { Headers } from "@/shared/components/Headers";
+import { Hero } from "@/shared/components/Hero";
+import { Banks } from "@/shared/components/Banks";
+import { TradePro } from "@/shared/components/TradePro";
+import { LastInfo } from "@/shared/components/LastInfo";
+import { DownHeader } from "@/shared/components/DownHeader";
 const inter = Inter({ subsets: ["latin"] });
+// const mBanks = {{BankImg: "dsdsd"}};
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -18,11 +22,19 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <Header />
-        <SecondHeader />
-        <Body />
-        <div>{children}</div>
+      <head>
+        <script src="https://unpkg.com/@phosphor-icons/web"></script>
+      </head>
+      <body className={`${inter.className} antialiased`}>
+        <Headers />
+        <Hero />
+        <Banks />
+        <TradePro />
+        <LastInfo />
+        <DownHeader />
+        {/* {mBanks.map(
+      ({BankImg}) => (<Banks BankImg={BankImg}/>))}
+        <div>{children}</div> */}
       </body>
     </html>
   );
