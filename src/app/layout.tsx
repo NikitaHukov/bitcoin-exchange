@@ -4,6 +4,9 @@ import "./globals.css";
 import { Headers } from "@/shared/components/Headers";
 import { Hero } from "@/shared/components/Hero";
 import { Banks } from "@/shared/components/Banks";
+import { TradePro } from "@/shared/components/TradePro";
+import { LastInfo } from "@/shared/components/LastInfo";
+import { DownHeader } from "@/shared/components/DownHeader";
 const inter = Inter({ subsets: ["latin"] });
 // const mBanks = {{BankImg: "dsdsd"}};
 
@@ -26,6 +29,9 @@ export default function RootLayout({
         <Headers />
         <Hero />
         <Banks />
+        <TradePro />
+        <LastInfo />
+        <DownHeader />
         {/* {mBanks.map(
       ({BankImg}) => (<Banks BankImg={BankImg}/>))}
         <div>{children}</div> */}

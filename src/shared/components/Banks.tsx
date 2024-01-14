@@ -4,12 +4,12 @@ export const Banks = () => {
       <div className="bg-sky-100 mt-24 border-t border-slate-300">
         <div className="p-10">
           <div className="bg-sky-100 grid grid-cols-6 place-items-center gap-20">
-            <div className="bg-slate-300 w-64 h-44 rounded-lg"></div>
-            <div className="bg-slate-300 w-64 h-44 rounded-lg"></div>
-            <div className="bg-slate-300 w-64 h-44 rounded-lg"></div>
-            <div className="bg-slate-300 w-64 h-44 rounded-lg"></div>
-            <div className="bg-slate-300 w-64 h-44 rounded-lg"></div>
-            <div className="bg-slate-300 w-64 h-44 rounded-lg"></div>
+            <div className="bg-slate-300 w-64 h-32 rounded-lg"></div>
+            <div className="bg-slate-300 w-64 h-32 rounded-lg"></div>
+            <div className="bg-slate-300 w-64 h-32 rounded-lg"></div>
+            <div className="bg-slate-300 w-64 h-32 rounded-lg"></div>
+            <div className="bg-slate-300 w-64 h-32 rounded-lg"></div>
+            <div className="bg-slate-300 w-64 h-32 rounded-lg"></div>
           </div>
         </div>
       </div>
